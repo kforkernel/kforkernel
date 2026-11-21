@@ -11,8 +11,8 @@ I'm an aspiring systems programmer interested in understanding computers from th
 
 ## 🛠️ Technologies & Skills
 
-* **Languages:** Rust, C, C++, Python, Bash
-* **Operating Systems:** Linux
-* **Systems:** Linux administration, OS development *(learning)*
+* **Languages:** Rust, C, C++, Python, Bash, HTML/CSS
+* **Operating Systems:** Linux, BSD (OpenBSD & FreeBSD), Android, Windows (7/10/11)
+* **Systems:** RHCSA level Linux administration, OS development *(learning)*
 * **Networking:** CCNA-level networking knowledge
 * **Hardware:** MCU programming, circuit design, and prototyping
