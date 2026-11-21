@@ -1,16 +1,19 @@
-## Hi there 👋
+Hi, I'm kforkernel 👋
 
-<!--
-**kforkernel/kforkernel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm an aspiring systems programmer interested in understanding computers from the hardware up.
 
-Here are some ideas to get you started:
+Interests
+Operating system development and kernel programming
+Systems programming and Linux internals
+Low-level programming with Rust and C/C++
+Linux system administration
+Computer networking
+Embedded systems, MCU programming, and circuit design
+Technologies & Skills
+Languages: Rust, C, C++, Python, Bash
+Operating Systems: Linux
+Networking: CCNA-level networking knowledge
+Systems: Linux administration, OS development (learning)
+Hardware: MCU programming, circuit design, and prototyping
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently learning OS development and exploring low-level systems programming.
