@@ -1,18 +1,39 @@
-# Hi, I'm kforkernel 👋
+<div align="center">
 
-I'm an aspiring systems programmer interested in understanding computers from the hardware up. Currently, I'm focused on learning OS development and exploring low-level systems programming.
+# `$ whoami` — kforkernel
 
-## 💻 Interests
+**Aspiring Systems Programmer • OS & Kernel Enthusiast • Hardware Tinkerer**
 
-* **OS & Kernel Development:** Operating system design and kernel programming
-* **Systems Programming:** Low-level development with Rust and C/C++, and exploring Linux internals
-* **Infrastructure & Networking:** Linux system administration and computer networking
-* **Hardware & Embedded:** Microcontroller (MCU) programming and circuit design
+*Exploring how computers work from bare-metal hardware up to userspace.*
 
-## 🛠️ Technologies & Skills
+</div>
 
-* **Languages:** Rust, C, C++, Python, Bash, HTML/CSS
-* **Operating Systems:** Linux, BSD (OpenBSD & FreeBSD), Android, Windows (7/10/11)
-* **Systems:** RHCSA level Linux administration, OS development *(learning)*
-* **Networking:** CCNA-level networking knowledge
-* **Hardware:** MCU programming, circuit design, and prototyping
+---
+
+### 🧠 Current Focus
+I'm focused on **operating system development** and **low-level systems programming**—building software close to the metal, understanding kernel internals, and bridging the gap between hardware and code.
+
+### 💻 Core Interests
+
+| Domain | Focus Areas |
+| :--- | :--- |
+| **OS & Kernel** | Operating system architecture, kernel programming, memory management |
+| **Systems Programming** | Low-level development in **Rust** & **C/C++**, Linux internals |
+| **Infrastructure & Net** | Linux system administration, routing/switching, network protocols |
+| **Hardware & Embedded** | Microcontroller (MCU) firmware, circuit design, bare-metal prototyping |
+
+---
+
+### 🛠️ Tech Stack & Environment
+
+* **Languages:** `Rust` • `C` • `C++` • `Python` • `Bash` • `HTML/CSS`
+* **Operating Systems:** `Linux` • `FreeBSD` • `OpenBSD` • `Android` • `Windows (7/10/11)`
+* **Systems & Infra:** RHCSA-level Linux Administration • OS Development *(in progress)*
+* **Networking:** CCNA-level Networking & Protocols
+* **Hardware:** MCU Programming • Circuit Design & Prototyping
+
+---
+
+<div align="center">
+  <sub><i>"Talk is cheap. Show me the code." — Linus Torvalds</i></sub>
+</div>
