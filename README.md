@@ -145,6 +145,8 @@ pub fn build_profile() -> Engineer {
 }
 ```
 
+---
+
 ### `$ cat ~/projects/roadmap.c`
 
 ```c
