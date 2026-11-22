@@ -56,6 +56,82 @@ drwxr-xr-x 14 kforkernel wheel  4096 Nov 22 05:22 ..
 
 ---
 
+```rust
+#![allow(dead_code)]
+
+struct Engineer {
+    focus: &'static [&'static str],
+    infrastructure: Infrastructure,
+    projects: Projects,
+    security: Security,
+}
+
+struct Infrastructure {
+    networking: &'static [&'static str],
+    self_hosted: &'static [&'static str],
+}
+
+struct Projects {
+    systems_cli: &'static [&'static str],
+    embedded_firmware: &'static [&'static str],
+}
+
+struct Security {
+    offensive_labs: &'static [&'static str],
+    cryptography: &'static [&'static str],
+}
+
+pub fn build_profile() -> Engineer {
+    Engineer {
+        focus: &[
+            "Linux Systems Administration",
+            "Low-Level & OS Development",
+            "Embedded Firmware Engineering",
+            "Network Architecture",
+        ],
+        infrastructure: Infrastructure {
+            networking: &[
+                "Multi-VLAN segmented enterprise topologies (L2/L3 switching)",
+                "Dynamic routing via OSPF & custom static routing tables",
+                "Link aggregation using EtherChannel (LACP/PAgP)",
+                "Core network services: DHCP, hardened SSH, & LAN provisioning",
+            ],
+            self_hosted: &[
+                "Encrypted DNS sinkhole (AdGuard Home) with DNS-over-TLS (DoT)",
+                "Internal PKI & custom Certificate Authority (CA) for local HTTPS",
+                "Privacy-respecting metasearch engine (SearXNG)",
+                "Multi-protocol file storage servers (SMB/Samba & FTP)",
+            ],
+        },
+        projects: Projects {
+            systems_cli: &[
+                "Rust: Cryptographic file encryption utility",
+                "Rust: Data compression & archival CLI tool",
+                "Rust: SHA checksum hashing & integrity verification tool",
+                "Python: Terminal-based raw HTTP/HTTPS web client",
+                "C: Command line utilities and games",  
+            ],
+            embedded_firmware: &[
+                "Bare-metal C/C++ firmware for microcontroller (MCU) peripherals",
+                "PWM actuation control for DC motors & servo positioning",
+                "Digital tilt-switch telemetry & inversion state detection",
+                "GPIO hardware state signaling & deterministic interrupt handling",
+            ],
+        },
+        security: Security {
+            offensive_labs: &[
+                "Penetration testing & vulnerability assessment in isolated virtualised labs",
+                "Linux privilege escalation, network enumeration, & exploit analysis",
+            ],
+            cryptography: &[
+                "End-to-end TLS certificate lifecycle management",
+                "Symmetric/asymmetric cipher implementation & cryptographic hashing",
+            ],
+        },
+    }
+}
+```
+
 ### `$ cat ~/projects/roadmap.c`
 
 ```c
