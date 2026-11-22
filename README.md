@@ -1,14 +1,16 @@
 <div align="center">
 
-```diff
-- kforkernel@localhost:~$ neofetch --ascii_distro tux_puffy
-+      .--.                                      _____
-+     | |      USER:    kforkernel           /     \  <-- Puffy (OpenBSD)
-+     | |      ROLE:    Systems Programmer  |  |
-+    //   \ \     OS:      Linux / *BSD         \  /
-+   (|     | )    KERNEL:  Ring 0 Tinkerer       |||||
-+  /'\_   _/`\    NET:     CCNA / Packet Filter  |||||
-+  \___)=(___/    ADMIN:   RHCSA / ZFS / Jails
+```ansi
+ [1;31mkforkernel@localhost:~$ [0m  [1;32mneofetch --custom [0m
+
+ [1;32m
+       .--.                                     /\       |==|
+      |    |     USER:    kforkernel           /  \      |==|
+      |    |     ROLE:    Systems Programmer   \  /      |==|
+     //   \ \    OS:      Linux / FreeBSD       \/       |  |
+    (|     | )   KERNEL:  Ring 0 Tinkerer       ||       |  |
+   /'\_   _/`\   NET:     CCNA / Packet Filter  ||       |__|
+   \___)=(___/   ADMIN:   RHCSA / ZFS / Jails   ||      [____] [0m
 ```
 
 **`[ SYSTEMS PROGRAMMER ]` • `[ OS & KERNEL DEV ]` • `[ NETWORK ENGINEER ]` • `[ *NIX SYSADMIN ]`**
@@ -19,11 +21,11 @@
 
 ### `0x01 // SYSTEM_OVERVIEW`
 
-```diff
-- kforkernel@localhost:~\$ ./whoami --verbose
-+ Exploring how computers work from bare-metal silicon and raw Ethernet frames 
-+ all the way up to userspace daemons. Focused on operating system architecture, 
-+ low-level C/Rust, and hardened Linux/BSD network infrastructure.
+```ansi
+ [1;31mkforkernel@localhost:~\$ [0m  [1;32m./whoami --verbose
+Exploring how computers work from bare-metal silicon and raw Ethernet frames 
+all the way up to userspace daemons. Focused on operating system architecture, 
+low-level C/Rust, and hardened Linux/BSD network infrastructure. [0m
 ```
 
 ---
@@ -41,46 +43,48 @@
 
 #### **`[ NETWORKING & TOPOLOGY ]`**
 
-```diff
-- kforkernel@localhost:~\$ traceroute -n core.backbone.local
-+
-+   [WAN / ISP]
-+        |
-+   +----+----+
-+   | OpenBSD |  <-- pf Firewall / WireGuard VPN (UDP 51820)
-+   +----+----+
-+        |  (802.1Q Trunk / BGP & OSPF)
-+   +----+----+
-+   | L3 Core |  <-- VLAN Segmentation / Routing / Switching (CCNA)
-+   +----+----+
-+     /     \
-+ [Linux]  [FreeBSD]  <-- KVM Hypervisor & ZFS Jail Host
+```ansi
+ [1;31mkforkernel@localhost:~\$ [0m  [1;32mtraceroute -n core.backbone.local
+
+    [WAN / ISP]
+         |
+   .-----+-----.
+
+   |  BSD/pf   |  --> Stateful Firewall / WireGuard VPN (UDP 51820)
+   '-----+-----'
+         |  (802.1Q Trunk / BGP & OSPF)
+   .-----+-----.
+
+   |  L3 Core  |  --> VLAN Segmentation / Routing / Switching (CCNA)
+   '-----+-----'
+      /     \
+ [Linux]  [FreeBSD]  --> KVM Hypervisor & ZFS Jail Host [0m
 ```
 
 ---
 
 ### `0x03 // ACTIVE_DIRECTORIES`
 
-```diff
-- kforkernel@localhost:~\$ ls -la ~/workspace/
-+ drwxr-xr-x  2 kforkernel wheel  512 Nov 22 05:22 .
-+ drwxr-xr-x 14 kforkernel wheel  512 Nov 22 05:22 ..
-+ -rw-r--r--  1 kforkernel wheel  512 Nov 22 05:22 custom_kernel.c     # [IN PROGRESS] Bootloader & memory paging
-+ -rw-r--r--  1 kforkernel wheel  512 Nov 22 05:22 net_packet_lab.rs   # Raw socket & TCP/IP stack experiments
-+ -rw-r--r--  1 kforkernel wheel  512 Nov 22 05:22 bsd_router.conf     # pf.conf rulesets, CARP failover & WireGuard
-+ -rw-r--r--  1 kforkernel wheel  512 Nov 22 05:22 mcu_firmware.asm    # Bare-metal microcontroller register control
+```ansi
+ [1;31mkforkernel@localhost:~\$ [0m  [1;32mls -la ~/workspace/
+drwxr-xr-x  2 kforkernel wheel  512 Nov 22 05:22 .
+drwxr-xr-x 14 kforkernel wheel  512 Nov 22 05:22 ..
+-rw-r--r--  1 kforkernel wheel  512 Nov 22 05:22 custom_kernel.c     # [IN PROGRESS] Bootloader & memory paging
+-rw-r--r--  1 kforkernel wheel  512 Nov 22 05:22 net_packet_lab.rs   # Raw socket & TCP/IP stack experiments
+-rw-r--r--  1 kforkernel wheel  512 Nov 22 05:22 bsd_router.conf     # pf.conf rulesets, CARP failover & WireGuard
+-rw-r--r--  1 kforkernel wheel  512 Nov 22 05:22 mcu_firmware.asm    # Bare-metal microcontroller register control [0m
 ```
 
 ---
 
 <div align="center">
 
-```diff
-- kforkernel@localhost:~\$ fortune -s
-+ "Talk is cheap. Show me the code." — Linus Torvalds
-+ "Keep it simple, keep it secure." — OpenBSD Motto
-+
-- kforkernel@localhost:~\$ █
+```ansi
+ [1;31mkforkernel@localhost:~\$ [0m  [1;32mfortune -s
+"Talk is cheap. Show me the code." — Linus Torvalds
+"The power to serve." — FreeBSD [0m
+
+ [1;31mkforkernel@localhost:~\$ [0m  [1;32m█ [0m
 ```
 
 </div>
