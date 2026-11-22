@@ -45,7 +45,7 @@ MISSION:    Exploring how computers work from bare-metal hardware up to userspac
 ---
 
 ### `$ cat /proc/focus`
-> Focused on **operating system development** and **low-level systems programming**—building software close to the metal, understanding kernel internals, and bridging the gap between hardware and code.
+> Focused on **systems administration**, **network engineering**, **operating system development** and **low-level systems programming**—building software close to the metal, understanding kernel internals, configuring and designing networks, maintaining server operations and bridging the gap between hardware and code.
 
 ```text
 
