@@ -312,6 +312,7 @@ kforkernel@localhost:~\$ cat << "EOF" >> ~/.bash_logout
   \___ \| | | | | | | | | | |  _ \\ V /|  _|  
    ___) | |_| | |_| | |_| | | |_) || | | |___ 
   |____/ \___/|____/ \___/  |____/ |_| |_____|
+
 EOF
 
 kforkernel@localhost:~\$ █
