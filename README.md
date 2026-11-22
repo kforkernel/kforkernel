@@ -1,3 +1,18 @@
+### `$ fastfetch --config minimal`
+
+```text
+       .--.          kforkernel@devbox
+      |    |         -----------------
+      |    |         LANGUAGES: Rust, C, C++, Python, Bash, HTML/CSS, SQL
+     //   \ \        OS:        Linux, FreeBSD, OpenBSD, Android, Windows (7/10/11)
+    (|     | )       SYSADMIN:  RHCSA-level Linux Administration
+   /'\_   _/`\       KERNEL:    OS Development [IN PROGRESS]
+   \___)=(___/       NETWORK:   CCNA-level Networking & Protocols
+                     HARDWARE:  MCU Programming, Circuit Design & Prototyping
+```
+
+---
+
 ```yaml
 kforkernel@localhost:~$ uname -a
 Linux kernel-dev 6.x.x-custom #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
@@ -5,7 +20,7 @@ Linux kernel-dev 6.x.x-custom #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
 kforkernel@localhost:~$ ./whoami --verbose
 
 USER:       kforkernel
-ROLE:       Aspiring Systems Programmer | OS & Kernel Enthusiast | Hardware Tinkerer | Linux Enjoyer | BSD Lover
+ROLE:       Aspiring Systems Programmer | OSev & Kernel Enthusiast | Hardware Tinkerer | Linux Enjoyer | BSD Lover
 MISSION:    Exploring how computers work from bare-metal hardware up to userspace.
 ```
 
