@@ -287,7 +287,7 @@ SEE ALSO
 section .rodata
     ; Direct interfaces for recruiters & engineering teams
     email    db "contact@kforkernel.com", 0
-    matrix   db "@kforkernel:matrix.org", 0
+    matrix   db "https://matrix.to/#/@kforkernel:matrix.org", 0
     website  db "https://kforkernel.com  [STATUS: 503 - Under Development]", 0
 
 section .text
