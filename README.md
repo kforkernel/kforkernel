@@ -16,6 +16,7 @@ MISSION:    Exploring how computers work from bare-metal hardware up to userspac
 ### `$ cat /proc/focus`
 > Focused on **operating system development** and **low-level systems programming**—building software close to the metal, understanding kernel internals, and bridging the gap between hardware and code.
 
+```text
 
        |  |  |  |  |  |  |  |
      .------------------------.
@@ -24,8 +25,8 @@ MISSION:    Exploring how computers work from bare-metal hardware up to userspac
    --|   MEM:    MMU / Paging |--
    --|   MODE:   Bare-Metal   |--
      '------------------------'
-
        |  |  |  |  |  |  |  |
+```
 
 ---
 
