@@ -23,7 +23,7 @@ _     __            _                   _
 [ ring 0 // bare-metal -> userspace ]
 
 
-       .--.          kforkernel@devbox
+       .--.          kforkernel@localhost
       |    |         -----------------
       |    |         LANGUAGES: Rust, C, C++, Python, Bash, HTML/CSS, SQL
      //   \ \        OS:        Linux, FreeBSD, OpenBSD, Android, Windows (7/10/11)
