@@ -56,20 +56,61 @@ drwxr-xr-x 14 kforkernel wheel  4096 Nov 22 05:22 ..
 
 ---
 
-### `$ fastfetch --config minimal`
+### `$ cat ~/projects/roadmap.c`
 
-```text
-       .--.          kforkernel@devbox
-      |    |         -----------------
-      |    |         LANGUAGES: Rust, C, C++, Python, Bash, HTML/CSS, SQL
-     //   \ \        OS:        Linux, FreeBSD, OpenBSD, Android, Windows (7/10/11)
-    (|     | )       SYSADMIN:  RHCSA-level Linux Administration
-   /'\_   _/`\       KERNEL:    OS Development [IN PROGRESS]
-   \___)=(___/       NETWORK:   CCNA-level Networking & Protocols
-                     HARDWARE:  MCU Programming, Circuit Design & Prototyping
+```c
+#include <stdio.h>
+#include <stdbool.h>
+
+#define ARCH "x86_64"
+
+typedef enum {
+    STATUS_STUDYING,
+    STATUS_WRAPPING_UP,
+    STATUS_ACTIVE
+} State;
+
+typedef struct {
+    const char *name;
+    const char *lang;
+    const char *desc;
+    State status;
+} Project;
+
+int main(void) {
+    Project current[] = {
+        {
+            .name   = "rust-shell",
+            .lang   = "Rust",
+            .desc   = "Custom POSIX-like shell (piping, redirection, job control)",
+            .status = STATUS_WRAPPING_UP
+        },
+        {
+            .name   = "c-coreutils",
+            .lang   = "C",
+            .desc   = "Reimplementing standard Linux GNU coreutils from scratch",
+            .status = STATUS_ACTIVE
+        },
+        {
+            .name   = "rust-coreutils",
+            .lang   = "Rust",
+            .desc   = "Memory-safe Linux coreutils rewrite for systems practice",
+            .status = STATUS_ACTIVE
+        },
+        {
+            .name   = "custom-os",
+            .lang   = "C / Rust / Asm",
+            .desc   = "Studying OS theory, bootloaders, and kernel internals",
+            .status = STATUS_STUDYING
+        }
+    };
+
+    printf("Loaded %zu active systems projects on %s.\n",
+           sizeof(current) / sizeof(current[0]), ARCH);
+
+    return 0;
+}
 ```
-
----
 
 ```text
 kforkernel@localhost:~\$ fortune -s
