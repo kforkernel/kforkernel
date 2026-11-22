@@ -3,7 +3,6 @@ kforkernel@localhost:~$ uname -a
 Linux kernel-dev 6.x.x-custom #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
 
 kforkernel@localhost:~$ ./whoami --verbose
-```
 
 ```yaml
 USER:       kforkernel
