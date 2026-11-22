@@ -1,6 +1,15 @@
 ### `$ fastfetch --config minimal`
 
 ```text
+_     __            _                   _ 
+| | __/ _| ___  _ __| | _____ _ __ _ __ | |
+| |/ / |_ / _ \| '__| |/ / _ \ '__| '_ \| |
+|   <|  _| (_) | |  |   <  __/ |  | | | | |
+|_|\_\_|  \___/|_|  |_|\_\___|_|  |_| |_|_|
+
+[ ring 0 // bare-metal -> userspace ]
+
+
        .--.          kforkernel@devbox
       |    |         -----------------
       |    |         LANGUAGES: Rust, C, C++, Python, Bash, HTML/CSS, SQL
@@ -9,11 +18,7 @@
    /'\_   _/`\       KERNEL:    OS Development [IN PROGRESS]
    \___)=(___/       NETWORK:   CCNA-level Networking & Protocols
                      HARDWARE:  MCU Programming, Circuit Design & Prototyping
-```
 
----
-
-```yaml
 kforkernel@localhost:~$ uname -a
 Linux kernel-dev 6.x.x-custom #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
 
@@ -56,8 +61,16 @@ drwxr-xr-x 14 kforkernel wheel  4096 Nov 22 05:22 ..
 
 ---
 
+### `$ cat /usr/bin/projects.rs`
+
 ```rust
 #![allow(dead_code)]
+use std::{
+    net::{IpAddr, TcpStream},
+    os::unix::fs::PermissionsExt,
+    process::Command,
+    sync::Arc,
+};
 
 struct Engineer {
     focus: &'static [&'static str],
@@ -121,7 +134,7 @@ pub fn build_profile() -> Engineer {
         security: Security {
             offensive_labs: &[
                 "Penetration testing & vulnerability assessment in isolated virtualised labs",
-                "Linux privilege escalation, network enumeration, & exploit analysis",
+                "Linux privilege escalation, network enumeration & post exploitation",
             ],
             cryptography: &[
                 "End-to-end TLS certificate lifecycle management",
@@ -203,9 +216,9 @@ SYNOPSIS
 
 DESCRIPTION
        Motivated systems programmer with hands-on experience in C, Rust,
-       Linux/BSD administration, networking, and bare-metal hardware.
+       systems administration, networking, and bare-metal hardware programming.
        Proven ability to learn complex architectures from the ground up—
-       demonstrated by writing a POSIX shell, GNU coreutils from scratch,
+       demonstrated by writing a shell, Linux coreutils from scratch,
        and studying OS kernel internals.
 
 OPTIONS
@@ -221,6 +234,9 @@ OPTIONS
               Ready for technical screenings, live C/Rust coding, and
               system architecture discussions.
 
+       --location
+              Based in London (UK), available for in person, hybrid and remote jobs.
+
 KEY STRENGTHS
        * Memory-safe & low-level programming (Rust, C, C++)
        * Linux system administration (RHCSA-level) & networking (CCNA-level)
@@ -228,9 +244,13 @@ KEY STRENGTHS
        * Self-directed problem solver who reads specs and datasheets
        * Strong passion for IT and learning new things
        * Technical curiosity and creativity, constantly building, tinkering, and exploring new tools
-       * Calm under pressure during tense situations
+       * Can work under pressure and in limited time constraints
+       * Problem isolation and analytical thinking 
 
 FILES
+       /usr/bin/projects.rs
+              Completed projects and builds.
+
        ~/projects/roadmap.c
               Source-level overview of active systems and Linux builds.
 
@@ -238,7 +258,7 @@ FILES
               Direct contact handles for recruiters and hiring teams.
 
 EXIT STATUS
-       0      Ready to onboard and ship production code.
+       0      Ready to onboard and ship production code and administer systems.
 
 SEE ALSO
        contact.asm(7), resume(1), fortune(6)
@@ -251,9 +271,9 @@ SEE ALSO
 ```nasm
 section .rodata
     ; Direct interfaces for recruiters & engineering teams
-    email    db "hello@kforkernel.dev", 0
+    email    db "contact@kforkernel.com", 0
     matrix   db "@kforkernel:matrix.org", 0
-    website  db "https://kforkernel.dev  [STATUS: 503 - Under Development]", 0
+    website  db "https://kforkernel.com  [STATUS: 503 - Under Development]", 0
 
 section .text
     global _connect
@@ -265,10 +285,19 @@ _connect:
     ret
 ```
 
+---
 
 ```text
 kforkernel@localhost:~\$ fortune -s
-"Talk is cheap. Show me the code." — Linus Torvalds
+"Some motivating quote or something" — kforkernel ...probably
+
+kforkernel@localhost:~\$ cat << "EOF" >> ~/.bash_logout
+   ____  _   _ ____   ___    ______   _______ 
+  / ___|| | | |  _ \ / _ \  | __ ) \ / / ____|
+  \___ \| | | | | | | | | | |  _ \\ V /|  _|  
+   ___) | |_| | |_| | |_| | | |_) || | | |___ 
+  |____/ \___/|____/ \___/  |____/ |_| |_____|
+EOF
 
 kforkernel@localhost:~\$ █
 ```
