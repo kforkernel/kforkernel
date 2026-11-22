@@ -80,19 +80,19 @@ typedef struct {
 int main(void) {
     Project current[] = {
         {
-            .name   = "rust-shell",
+            .name   = "friction",
             .lang   = "Rust",
-            .desc   = "Custom POSIX-like shell (piping, redirection, job control)",
+            .desc   = "Custom Linux shell (piping, redirection, job control)",
             .status = STATUS_WRAPPING_UP
         },
         {
-            .name   = "c-coreutils",
+            .name   = "linux-c-core-utils",
             .lang   = "C",
             .desc   = "Reimplementing standard Linux GNU coreutils from scratch",
             .status = STATUS_ACTIVE
         },
         {
-            .name   = "rust-coreutils",
+            .name   = "linux-rust-core-utils",
             .lang   = "Rust",
             .desc   = "Memory-safe Linux coreutils rewrite for systems practice",
             .status = STATUS_ACTIVE
@@ -111,6 +111,84 @@ int main(void) {
     return 0;
 }
 ```
+
+---
+
+### `$ man kforkernel`
+
+```text
+KFORKERNEL(1)               Candidate Manual               KFORKERNEL(1)
+
+NAME
+       kforkernel - Systems, Embedded, Linux & Network Infrastructure Engineer
+
+SYNOPSIS
+       kforkernel [--hire] [--intern] [--freelance] [--interview] [--jobseeker]
+
+DESCRIPTION
+       Motivated systems programmer with hands-on experience in C, Rust,
+       Linux/BSD administration, networking, and bare-metal hardware.
+       Proven ability to learn complex architectures from the ground up—
+       demonstrated by writing a POSIX shell, GNU coreutils from scratch,
+       and studying OS kernel internals.
+
+OPTIONS
+       --hire
+              Available for Systems, Embedded, Systems Administration,
+              Networking, Help Desk/IT Support & Linux Infrastructure roles.
+
+       --intern
+              Open to Systems Engineering, Kernel, Firmware,
+              Cybersecurity, IT/Tech Support Internships/Apprenticeships.
+
+       --interview
+              Ready for technical screenings, live C/Rust coding, and
+              system architecture discussions.
+
+KEY STRENGTHS
+       * Memory-safe & low-level programming (Rust, C, C++)
+       * Linux system administration (RHCSA-level) & networking (CCNA-level)
+       * Microcontroller firmware, debugging, and hardware prototyping
+       * Self-directed problem solver who reads specs and datasheets
+       * Strong passion for IT and learning new things
+       * Technical curiosity and creativity, constantly building, tinkering, and exploring new tools
+       * Calm under pressure during tense situations
+
+FILES
+       ~/projects/roadmap.c
+              Source-level overview of active systems and Linux builds.
+
+       ~/arch/x86_64/contact.asm
+              Direct contact handles for recruiters and hiring teams.
+
+EXIT STATUS
+       0      Ready to onboard and ship production code.
+
+SEE ALSO
+       contact.asm(7), resume(1), fortune(6)
+```
+
+---
+
+### `$ cat ~/arch/x86_64/contact.asm`
+
+```nasm
+section .rodata
+    ; Direct interfaces for recruiters & engineering teams
+    email    db "hello@kforkernel.dev", 0
+    matrix   db "@kforkernel:matrix.org", 0
+    website  db "https://kforkernel.dev  [STATUS: 503 - Under Development]", 0
+
+section .text
+    global _connect
+
+_connect:
+    lea  rdi, [rel email]       ; Preferred for job inquiries & interviews
+    lea  rsi, [rel matrix]      ; Real-time chat (Element)
+    lea  rdx, [rel website]     ; Portfolio & kernel notes (WIP)
+    ret
+```
+
 
 ```text
 kforkernel@localhost:~\$ fortune -s
