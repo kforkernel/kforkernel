@@ -1,10 +1,9 @@
-```text
+```yaml
 kforkernel@localhost:~$ uname -a
 Linux kernel-dev 6.x.x-custom #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
 
 kforkernel@localhost:~$ ./whoami --verbose
 
-```yaml
 USER:       kforkernel
 ROLE:       Aspiring Systems Programmer | OS & Kernel Enthusiast | Hardware Tinkerer | Linux Enjoyer | BSD Lover
 MISSION:    Exploring how computers work from bare-metal hardware up to userspace.
