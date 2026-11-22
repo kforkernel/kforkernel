@@ -3,7 +3,7 @@
 # `kforkernel`
 **Systems Programmer • Windows Trampler • OS & Kernel Enthusiast • Hardware Tinkerer • Penguin Herder • Packet Plumber**
 
-[Email](mailto:contact@kforkernel.com) • [Matrix](https://matrix.to/#/@kforkernel:matrix.org) • [Website (WIP)](https://kforkernel.com)
+[Email](mailto:contact@kforkernel.com) • [Matrix](https://matrix.to/#/@kforkernel:matrix.org) • [Website (Currently Unavailable)](https://kforkernel.com)
 
 </div>
 
