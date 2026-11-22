@@ -1,3 +1,16 @@
+<div align="center">
+
+# `kforkernel`
+**Systems Programmer • OS & Kernel Enthusiast • Hardware Tinkerer • Penguin Herder • Packet Plumber**
+
+[Email](mailto:contact@kforkernel.com) • [Matrix](https://matrix.to/#/@kforkernel:matrix.org) • [Website (WIP)](https://kforkernel.com)
+
+</div>
+
+---
+***
+___
+
 ### `$ fastfetch --config minimal`
 
 ```text
