@@ -1,15 +1,20 @@
 <div align="center">
 
-# `kforkernel`
-**Systems Programmer • Windows Trampler • OS & Kernel Enthusiast • Hardware Tinkerer • Penguin Herder • Packet Plumber**
+# `kforkernel@welcome:$`
 
-[Email](mailto:contact@kforkernel.com) • [Matrix](https://matrix.to/#/@kforkernel:matrix.org) • [Website (Currently Unavailable)](https://kforkernel.com)
+**Systems Programmer • OS & Kernel Enthusiast • Hardware Tinkerer**  
+
+[![Email](https://shields.io)](mailto:contact@kforkernel.com)
+|
+[![Matrix](https://shields.io)](https://matrix.to/#/@kforkernel:matrix.org)
+|
+[![Website {Currently Unavailable)](https://shields.io)](https://kforkernel.com)
 
 </div>
 
----
-***
-___
+<br>
+
+<br>
 
 <p align="center">
   <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=kforkernel&layout=compact&langs_count=3&theme=midnight-purple&card_width=850" alt="Most Used Languages" />
@@ -33,7 +38,7 @@ _     __            _                   _
        .--.          kforkernel@localhost
       |    |         -----------------
       |    |         LANGUAGES: Rust, C, C++, Python, Bash, HTML/CSS, SQL
-     //   \ \        OS:        Linux, FreeBSD, OpenBSD, Android, Windows (7/10/11)
+     //   \ \        OS:        Linux, FreeBSD, OpenBSD, Android, Windows (7/10/11), Cisco IOS
     (|     | )       SYSADMIN:  RHCSA-level Linux Administration
    /'\_   _/`\       KERNEL:    OS Development [IN PROGRESS]
    \___)=(___/       NETWORK:   CCNA-level Networking & Protocols
