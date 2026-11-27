@@ -11,6 +11,12 @@
 ***
 ___
 
+<p align="center">
+  <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs?username=kforkernel&layout=compact&langs_count=3&theme=midnight-purple&card_width=850" alt="Most Used Languages" />
+</p>
+
+---
+
 ### `$ fastfetch --config minimal`
 
 ```text
