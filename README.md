@@ -315,21 +315,19 @@ _connect:
 
 ---
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF6800&background=000000&vCenter=true&width=1000&lines=root%40kforkernel%3A~%2F%24+sudo+systemctl+poweroff+%26%26+sudo+rm+-rf+%2F+--no-preserve-root" alt="Typing SVG" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF6800&background=000000&vCenter=true&width=650&lines=root%40kforkernel%3A~%2F%24+sudo+dmesg+-T+%7C+tail+-n+5" alt="Typing SVG" />
 </a>
 
 ```text
-kforkernel@localhost:~\$ fortune -s
-"Some motivating quote or something" — kforkernel ...probably
-
-kforkernel@localhost:~\$ cat << "EOF" >> ~/.bash_logout
+root@kforkernel:~\$ sudo dmesg -T | tail -n 7
    ____  _   _ ____   ___    ______   _______ 
   / ___|| | | |  _ \ / _ \  | __ ) \ / / ____|
   \___ \| | | | | | | | | | |  _ \\ V /|  _|  
    ___) | |_| | |_| | |_| | | |_) || | | |___ 
   |____/ \___/|____/ \___/  |____/ |_| |_____|
 
-EOF
-
-kforkernel@localhost:~\$ █
+"Some motivating quote or something" — kforkernel ...probably
 ```
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFFFF&background=000000&vCenter=true&multiline=true&repeat=false&width=850&height=70&lines=root%40kforkernel%3A~%2F%24+sudo+poweroff+%26%26+sudo+rm+-rf+%2F+--no-preserve-root;root%40kforkernel%3A~%2F%24+%E2%96%88" alt="Typing SVG" />
+</a>
