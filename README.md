@@ -16,41 +16,38 @@
 <br>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Wireshark-00E5FF?style=for-the-badge" alt="Wireshark">
-  <img src="https://img.shields.io/badge/Rust-FF00FF?style=for-the-badge" alt="Rust">
-  <img src="https://img.shields.io/badge/Ubuntu-39FF14?style=for-the-badge" alt="Ubuntu">
+  <img src="https://img.shields.io/badge/Arduino-FF00FF?style=for-the-badge" alt="Arduino">
+  <img src="https://img.shields.io/badge/Linux-39FF14?style=for-the-badge" alt="Linux">
+  <img src="https://img.shields.io/badge/Python-00E5FF?style=for-the-badge" alt="Python">
   <img src="https://img.shields.io/badge/Docker-FF3131?style=for-the-badge" alt="Docker">
-  <img src="https://img.shields.io/badge/GnuPG-FFD300?style=for-the-badge" alt="GnuPG">
+  <img src="https://img.shields.io/badge/FreeBSD-FFD300?style=for-the-badge" alt="FreeBSD">
+  <img src="https://img.shields.io/badge/Git-8A2BE2?style=for-the-badge" alt="Git">
   <img src="https://img.shields.io/badge/CSS-FF6EC7?style=for-the-badge" alt="CSS">
-  <img src="https://img.shields.io/badge/FreeBSD-00BFFF?style=for-the-badge" alt="FreeBSD">
-  <img src="https://img.shields.io/badge/Arduino-8A2BE2?style=for-the-badge" alt="Arduino">
-  <img src="https://img.shields.io/badge/Bash-FF4500?style=for-the-badge" alt="Bash">
-  <img src="https://img.shields.io/badge/Cloudflare-00FF7F?style=for-the-badge" alt="Cloudflare">
-  <img src="https://img.shields.io/badge/QEMU-FF8C00?style=for-the-badge" alt="QEMU">
+  <img src="https://img.shields.io/badge/Ubuntu-FF8C00?style=for-the-badge" alt="Ubuntu">
+  <img src="https://img.shields.io/badge/NGINX-00FF7F?style=for-the-badge" alt="NGINX">
+  <img src="https://img.shields.io/badge/Rust-FF4500?style=for-the-badge" alt="Rust">
+  <img src="https://img.shields.io/badge/VirtualBox-6A5CFF?style=for-the-badge" alt="VirtualBox">
+  <img src="https://img.shields.io/badge/SQL-FFFF00?style=for-the-badge" alt="SQL">
+  <img src="https://img.shields.io/badge/Cisco-FF00AA?style=for-the-badge" alt="Cisco">
   <img src="https://img.shields.io/badge/Debian-2979FF?style=for-the-badge" alt="Debian">
-  <img src="https://img.shields.io/badge/SELinux-FF8C00?style=for-the-badge" alt="SELinux">
-  <img src="https://img.shields.io/badge/Python-6A5CFF?style=for-the-badge" alt="Python">
-  <img src="https://img.shields.io/badge/Apache-00C2FF?style=for-the-badge" alt="Apache">
-  <img src="https://img.shields.io/badge/Android-FF3131?style=for-the-badge" alt="Android">
-  <img src="https://img.shields.io/badge/Raspberry_Pi-FF00FF?style=for-the-badge" alt="Raspberry Pi">
-  <img src="https://img.shields.io/badge/Cisco-39FF14?style=for-the-badge" alt="Cisco">
-  <img src="https://img.shields.io/badge/Linux-FF6A00?style=for-the-badge" alt="Linux">
-  <img src="https://img.shields.io/badge/VirtualBox-00E5FF?style=for-the-badge" alt="VirtualBox">
-  <img src="https://img.shields.io/badge/WireGuard-FF1493?style=for-the-badge" alt="WireGuard">
-  <img src="https://img.shields.io/badge/HTML-8A2BE2?style=for-the-badge" alt="HTML">
-  <img src="https://img.shields.io/badge/Fedora-8A2BE2?style=for-the-badge" alt="Fedora">
-  <img src="https://img.shields.io/badge/NGINX-FFD300?style=for-the-badge" alt="NGINX">
+  <img src="https://img.shields.io/badge/Bash-39FF14?style=for-the-badge" alt="Bash">
+  <img src="https://img.shields.io/badge/Red_Hat-FF3131?style=for-the-badge" alt="Red Hat">
+  <img src="https://img.shields.io/badge/Wireshark-00FFFF?style=for-the-badge" alt="Wireshark">
+  <img src="https://img.shields.io/badge/HTML-FF8C00?style=for-the-badge" alt="HTML">
+  <img src="https://img.shields.io/badge/QEMU-FF00FF?style=for-the-badge" alt="QEMU">
+  <img src="https://img.shields.io/badge/Cloudflare-FFD300?style=for-the-badge" alt="Cloudflare">
   <img src="https://img.shields.io/badge/C%2B%2B-00FF7F?style=for-the-badge" alt="C++">
-  <img src="https://img.shields.io/badge/Red_Hat-FF00FF?style=for-the-badge" alt="Red Hat">
-  <img src="https://img.shields.io/badge/Flatpak-2979FF?style=for-the-badge" alt="Flatpak">
-  <img src="https://img.shields.io/badge/SQL-FF6EC7?style=for-the-badge" alt="SQL">
-  <img src="https://img.shields.io/badge/OpenBSD-00BFFF?style=for-the-badge" alt="OpenBSD">
+  <img src="https://img.shields.io/badge/Fedora-8A2BE2?style=for-the-badge" alt="Fedora">
+  <img src="https://img.shields.io/badge/Android-FF1493?style=for-the-badge" alt="Android">
+  <img src="https://img.shields.io/badge/SELinux-00BFFF?style=for-the-badge" alt="SELinux">
+  <img src="https://img.shields.io/badge/Flatpak-FF4500?style=for-the-badge" alt="Flatpak">
+  <img src="https://img.shields.io/badge/GnuPG-FFFF00?style=for-the-badge" alt="GnuPG">
+  <img src="https://img.shields.io/badge/C-FF00FF?style=for-the-badge" alt="C">
   <img src="https://img.shields.io/badge/VMware-39FF14?style=for-the-badge" alt="VMware">
-  <img src="https://img.shields.io/badge/C-FF3131?style=for-the-badge" alt="C">
-  <img src="https://img.shields.io/badge/Dev_Containers-6A5CFF?style=for-the-badge" alt="Dev Containers">
-  <img src="https://img.shields.io/badge/AlmaLinux-FFD300?style=for-the-badge" alt="AlmaLinux">
-  <img src="https://img.shields.io/badge/Git-FF4500?style=for-the-badge" alt="Git">
-  <img src="https://img.shields.io/badge/Rocky_Linux-00E5FF?style=for-the-badge" alt="Rocky Linux">
+  <img src="https://img.shields.io/badge/AlmaLinux-00E5FF?style=for-the-badge" alt="AlmaLinux">
+  <img src="https://img.shields.io/badge/Dev_Containers-FF3131?style=for-the-badge" alt="Dev Containers">
+  <img src="https://img.shields.io/badge/OpenBSD-FF6EC7?style=for-the-badge" alt="OpenBSD">
+  <img src="https://img.shields.io/badge/Rocky_Linux-8A2BE2?style=for-the-badge" alt="Rocky Linux">
 </div>
 
 <br>
