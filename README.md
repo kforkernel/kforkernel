@@ -17,7 +17,8 @@ ___
 
 ---
 
-### `$ fastfetch --config minimal`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F50000&background=000000&vCenter=true&width=650&lines=root%40kforkernel%3A~%2F%24+fastfetch+--config+minimal" alt="Typing SVG" />
+</a>
 
 ```text
 _     __            _                   _ 
@@ -50,7 +51,8 @@ MISSION:    Exploring how computers work from bare-metal hardware up to userspac
 
 ---
 
-### `$ cat /proc/focus`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&background=000000&vCenter=true&width=650&lines=root%40kforkernel%3A~%2F%24+which+focus" alt="Typing SVG" />
+</a>
 > Focused on **systems administration**, **network engineering**, **operating system development** and **low-level systems programming**—building software close to the metal, understanding kernel internals, configuring and designing networks, maintaining server operations and bridging the gap between hardware and code.
 
 ```text
@@ -67,7 +69,8 @@ MISSION:    Exploring how computers work from bare-metal hardware up to userspac
 
 ---
 
-### `$ ls -la ~/interests/`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F3F500&background=000000&vCenter=true&width=650&lines=root%40kforkernel%3A~%2F%24+ls+-la+~%2Finterests%2F" alt="Typing SVG" />
+</a>
 
 ```text
 drwxr-xr-x  2 kforkernel wheel  4096 Nov 22 05:22 .
@@ -80,7 +83,8 @@ drwxr-xr-x 14 kforkernel wheel  4096 Nov 22 05:22 ..
 
 ---
 
-### `$ cat /usr/bin/projects.rs`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=BE00F5&background=000000&vCenter=true&width=650&lines=root%40kforkernel%3A~%2F%24+cat+%2Fusr%2Fbin%2Fprojects.rs" alt="Typing SVG" />
+</a>
 
 ```rust
 #![allow(dead_code)]
@@ -166,7 +170,8 @@ pub fn build_profile() -> Engineer {
 
 ---
 
-### `$ cat ~/projects/roadmap.c`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=000FF5&background=000000&vCenter=true&width=650&lines=root%40kforkernel%3A~%2F%24+cat+~%2Fprojects%2Froadmap.c" alt="Typing SVG" />
+</a>
 
 ```c
 #include <stdio.h>
@@ -224,7 +229,8 @@ int main(void) {
 
 ---
 
-### `$ man kforkernel`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F50089&background=000000&vCenter=true&width=650&lines=root%40kforkernel%3A~%2F%24+man+kforkernel" alt="Typing SVG" />
+</a>
 
 ```text
 KFORKERNEL(1)               Candidate Manual               KFORKERNEL(1)
@@ -287,7 +293,8 @@ SEE ALSO
 
 ---
 
-### `$ cat ~/arch/x86_64/contact.asm`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F3F5&background=000000&vCenter=true&width=650&lines=root%40kforkernel%3A~%2F%24+cat+~%2Farch%2Fx86_64%2Fcontact.asm" alt="Typing SVG" />
+</a>
 
 ```nasm
 section .rodata
@@ -307,6 +314,9 @@ _connect:
 ```
 
 ---
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF6800&background=000000&vCenter=true&width=1000&lines=root%40kforkernel%3A~%2F%24+sudo+systemctl+poweroff+%26%26+sudo+rm+-rf+%2F+--no-preserve-root" alt="Typing SVG" />
+</a>
 
 ```text
 kforkernel@localhost:~\$ fortune -s
