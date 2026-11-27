@@ -1,6 +1,6 @@
 <div align="center">
 
-# `kforkernel@welcome:$`
+# `kforkernel@welcome:$ 👋`
 
 **Systems Programmer • OS & Kernel Enthusiast • Hardware Tinkerer**  
 
